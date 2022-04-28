@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhiyong/CEMach'
+  s.homepage         = 'https://github.com/617646201/CEMach.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhiyong' => '617646201@qq.com' }
-  s.source           = { :git => 'https://github.com/zhiyong/CEMach.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/617646201/CEMach.git', :tag => s.version.to_s }
   s.ios.deployment_target = '14.0'
   s.source_files = 'CEMach/Classes/**/*'
   s.public_header_files = 'CEMach/Classes/**/CEMach.h'
