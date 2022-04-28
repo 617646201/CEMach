@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CEMach_Example' do
+  pod 'CEMach', :path => '../'
+
+  target 'CEMach_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
