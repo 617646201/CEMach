@@ -7,6 +7,7 @@
 //
 
 #import "CEViewController.h"
+#import "CEMach.h"
 
 @interface CEViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [CEMach appMd5];
 }
 
 - (void)didReceiveMemoryWarning

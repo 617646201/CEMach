@@ -1,0 +1,6 @@
+framework module CEMach {
+  umbrella header "CEMach-umbrella.h"
+
+  export *
+  module * { export * }
+}

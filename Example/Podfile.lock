@@ -1,0 +1,16 @@
+PODS:
+  - CEMach (0.1.0)
+
+DEPENDENCIES:
+  - CEMach (from `../`)
+
+EXTERNAL SOURCES:
+  CEMach:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CEMach: fcf3761d4c1795b0e3af2521a4dce27bd1ed1634
+
+PODFILE CHECKSUM: 0196411c2f26e0f8fb81b5595e1def51768edf12
+
+COCOAPODS: 1.11.3

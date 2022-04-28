@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057E5327B85325CEC230F1C5931B0F6D /* CEMachSign.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9B70A248A15C3D07E2E82AC7E4784 /* CEMachSign.mm */; };
+		06DE5A30C6E3E1F30E7375925B4716F8 /* CEMach-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D44F1E80ADC389F3C96292018EE1C2E /* CEMach-dummy.m */; };
+		2A41278F41DC04A919A7E1D488BF04F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		48FBF709281AD1DE00F458B9 /* CEMach.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FBF707281AD1DE00F458B9 /* CEMach.h */; };
+		48FBF70A281AD1DE00F458B9 /* CEMach.mm in Sources */ = {isa = PBXBuildFile; fileRef = 48FBF708281AD1DE00F458B9 /* CEMach.mm */; };
+		4D83735BC5F8DDBBD397F20F1229C642 /* Pods-CEMach_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6078F34063C054FE2ACD8D5525E1C6A2 /* Pods-CEMach_Tests-dummy.m */; };
+		81CCE5A5018B1F46423D6B04D1D1D879 /* Pods-CEMach_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F26C303B744D2A4B9851F807329B24 /* Pods-CEMach_Example-dummy.m */; };
+		9130982FEDACF13941BC412BB724FC02 /* CEMachSign.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5895989046E3EEB4752F3E31E33049 /* CEMachSign.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A0D62D21114BBD40EEFBE0AD63E618FE /* CEMachJailbroken.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67B1599A848C620BB4A1783C61081DFF /* CEMachJailbroken.mm */; };
+		AFB163FC0272573786585B0A1FBB331D /* Pods-CEMach_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B50F6F2F7D586B626F221578E5EC89 /* Pods-CEMach_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFA6AB41F323B811E2F789784962EBB4 /* CEMachJailbroken.h in Headers */ = {isa = PBXBuildFile; fileRef = 7637FEFE76214D497D6E2D03A43AE064 /* CEMachJailbroken.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D0F371140ACEEE1608E0774BBD1CCA7D /* CEMach-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D39B81075B5F34F168D03FDB5B726F5F /* CEMach-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1AF61614B81B4495AE6DDC120B08F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D3FAD2D22D5D3CD1C70B30A7986AFA0A /* Pods-CEMach_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56570A1277F430220F2FC4158544D31E /* Pods-CEMach_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC9D04D7D44BCB5C52D723F90D3F1C4A /* CEMachManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1C81FF060E07ED4796FF6C1223141E82 /* CEMachManager.mm */; };
+		EC7871D661E18A0AF77D8EA8EA595DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F511B5FB7391D2C87361EF197A526DCE /* CEMachManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3FA736D488F9D5EB235AB7EBFDA4DD /* CEMachManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06FC0C4117832D42F45DA3AF02DF2659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E69346FA1C560E2C7178A8FD358B45C4;
+			remoteInfo = CEMach;
+		};
+		D7D9A037B1B9F47DEC59B8D32FEACE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA022DD784D1A663AD40E1EE332D1EC;
+			remoteInfo = "Pods-CEMach_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A17DFD934915627149633C53F7E7C4 /* Pods-CEMach_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMach_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		04D5F231C90057DA933755BFFBB0A01C /* Pods-CEMach_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CEMach_Example"; path = Pods_CEMach_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		075CFEBDAF4767F059CF063D247B3716 /* CEMach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CEMach.release.xcconfig; sourceTree = "<group>"; };
+		161AF2BF71AD99B48C38726B70C05207 /* Pods-CEMach_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMach_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1C81FF060E07ED4796FF6C1223141E82 /* CEMachManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = CEMachManager.mm; path = CEMach/Classes/Base/CEMachManager.mm; sourceTree = "<group>"; };
+		2768CC8048FC3A8A62D437E645E5732F /* CEMach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CEMach.debug.xcconfig; sourceTree = "<group>"; };
+		39348731D2B98E8E0F497E88CBB58925 /* Pods-CEMach_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEMach_Example-frameworks.sh"; sourceTree = "<group>"; };
+		405C6842BFFF225F188D13B0DE9B822B /* CEMach.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CEMach.modulemap; sourceTree = "<group>"; };
+		46F26C303B744D2A4B9851F807329B24 /* Pods-CEMach_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEMach_Example-dummy.m"; sourceTree = "<group>"; };
+		471B25667171E370130B6DA0A33BAC46 /* Pods-CEMach_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEMach_Tests-Info.plist"; sourceTree = "<group>"; };
+		48FBF707281AD1DE00F458B9 /* CEMach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEMach.h; path = CEMach/Classes/Base/CEMach.h; sourceTree = "<group>"; };
+		48FBF708281AD1DE00F458B9 /* CEMach.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CEMach.mm; path = CEMach/Classes/Base/CEMach.mm; sourceTree = "<group>"; };
+		56570A1277F430220F2FC4158544D31E /* Pods-CEMach_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEMach_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5C01E42CFDDF54A84F64A5A941F13401 /* Pods-CEMach_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMach_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6078F34063C054FE2ACD8D5525E1C6A2 /* Pods-CEMach_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEMach_Tests-dummy.m"; sourceTree = "<group>"; };
+		67B1599A848C620BB4A1783C61081DFF /* CEMachJailbroken.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = CEMachJailbroken.mm; path = CEMach/Classes/Base/CEMachJailbroken.mm; sourceTree = "<group>"; };
+		6D09145E6D73063BBDD03FDE27A9AE16 /* Pods-CEMach_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEMach_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7637FEFE76214D497D6E2D03A43AE064 /* CEMachJailbroken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEMachJailbroken.h; path = CEMach/Classes/Base/CEMachJailbroken.h; sourceTree = "<group>"; };
+		7D44F1E80ADC389F3C96292018EE1C2E /* CEMach-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CEMach-dummy.m"; sourceTree = "<group>"; };
+		7DF9B70A248A15C3D07E2E82AC7E4784 /* CEMachSign.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = CEMachSign.mm; path = CEMach/Classes/Base/CEMachSign.mm; sourceTree = "<group>"; };
+		8F5D52B772EF1E418C62035CBF9382D6 /* Pods-CEMach_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEMach_Example.modulemap"; sourceTree = "<group>"; };
+		9204B2D7B070099DB2BE60B28EA8D9C8 /* Pods-CEMach_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CEMach_Tests"; path = Pods_CEMach_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9263187E9F532CC8425BAC00D21662A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5B6E4CF45C49F0F947A9C2E6FD4E232 /* Pods-CEMach_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEMach_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6A47AF2F44B9D984D7131F463CA75B5 /* CEMach-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CEMach-Info.plist"; sourceTree = "<group>"; };
+		A90588059C117A3C9512C4559D0B95EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A9308943D00C0E676B8785ECFFF4B027 /* CEMach-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CEMach-prefix.pch"; sourceTree = "<group>"; };
+		AC3FA736D488F9D5EB235AB7EBFDA4DD /* CEMachManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEMachManager.h; path = CEMach/Classes/Base/CEMachManager.h; sourceTree = "<group>"; };
+		AD5C0519934045F789D0B55ED857ED7B /* CEMach.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CEMach.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3B71117A66F1B09A3C035956ECDC087 /* Pods-CEMach_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEMach_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE5895989046E3EEB4752F3E31E33049 /* CEMachSign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEMachSign.h; path = CEMach/Classes/Base/CEMachSign.h; sourceTree = "<group>"; };
+		CE6B2DDE3B7FE2A670C70488AE01108F /* CEMach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CEMach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39B81075B5F34F168D03FDB5B726F5F /* CEMach-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CEMach-umbrella.h"; sourceTree = "<group>"; };
+		D83DD95DCCF6C3B119CBB2B02755762D /* Pods-CEMach_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEMach_Tests.modulemap"; sourceTree = "<group>"; };
+		EFEF444FA8304F97E4E431AB4D5A4BD1 /* Pods-CEMach_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMach_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B50F6F2F7D586B626F221578E5EC89 /* Pods-CEMach_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEMach_Example-umbrella.h"; sourceTree = "<group>"; };
+		FA2FBDAF264FA444D47C95124B624290 /* Pods-CEMach_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEMach_Example-Info.plist"; sourceTree = "<group>"; };
+		FF8B6D44A172BAEDA47D1D58FF670DE3 /* Pods-CEMach_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEMach_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		155DD82BD177AE41FE5BBA16652AA22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AF61614B81B4495AE6DDC120B08F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8B6BD2903AEBB414AE761BD88EDE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A41278F41DC04A919A7E1D488BF04F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97BD88EF01E6C51B8647F12D6A68FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7871D661E18A0AF77D8EA8EA595DF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2EF5743DD98662C68726601DCD2870 /* Pods-CEMach_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8F5D52B772EF1E418C62035CBF9382D6 /* Pods-CEMach_Example.modulemap */,
+				A5B6E4CF45C49F0F947A9C2E6FD4E232 /* Pods-CEMach_Example-acknowledgements.markdown */,
+				6D09145E6D73063BBDD03FDE27A9AE16 /* Pods-CEMach_Example-acknowledgements.plist */,
+				46F26C303B744D2A4B9851F807329B24 /* Pods-CEMach_Example-dummy.m */,
+				39348731D2B98E8E0F497E88CBB58925 /* Pods-CEMach_Example-frameworks.sh */,
+				FA2FBDAF264FA444D47C95124B624290 /* Pods-CEMach_Example-Info.plist */,
+				F2B50F6F2F7D586B626F221578E5EC89 /* Pods-CEMach_Example-umbrella.h */,
+				161AF2BF71AD99B48C38726B70C05207 /* Pods-CEMach_Example.debug.xcconfig */,
+				5C01E42CFDDF54A84F64A5A941F13401 /* Pods-CEMach_Example.release.xcconfig */,
+			);
+			name = "Pods-CEMach_Example";
+			path = "Target Support Files/Pods-CEMach_Example";
+			sourceTree = "<group>";
+		};
+		2CF0EE5DCB8AD2522DB2143F53D8DBD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D2EF5743DD98662C68726601DCD2870 /* Pods-CEMach_Example */,
+				69C59BBF30DB5A1E428C653CFC43BD0D /* Pods-CEMach_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61842768BB690867CA8124F47238FD0D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6772B7D7A52CFE167FAB4E5521969BCF /* CEMach */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6772B7D7A52CFE167FAB4E5521969BCF /* CEMach */ = {
+			isa = PBXGroup;
+			children = (
+				7637FEFE76214D497D6E2D03A43AE064 /* CEMachJailbroken.h */,
+				67B1599A848C620BB4A1783C61081DFF /* CEMachJailbroken.mm */,
+				CE5895989046E3EEB4752F3E31E33049 /* CEMachSign.h */,
+				7DF9B70A248A15C3D07E2E82AC7E4784 /* CEMachSign.mm */,
+				AC3FA736D488F9D5EB235AB7EBFDA4DD /* CEMachManager.h */,
+				1C81FF060E07ED4796FF6C1223141E82 /* CEMachManager.mm */,
+				48FBF707281AD1DE00F458B9 /* CEMach.h */,
+				48FBF708281AD1DE00F458B9 /* CEMach.mm */,
+				ADB9E16C65BBEF661F12A961F431E723 /* Pod */,
+				99E3FF5E581F3DE417737EB9C3F5C630 /* Support Files */,
+			);
+			name = CEMach;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		69C59BBF30DB5A1E428C653CFC43BD0D /* Pods-CEMach_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D83DD95DCCF6C3B119CBB2B02755762D /* Pods-CEMach_Tests.modulemap */,
+				FF8B6D44A172BAEDA47D1D58FF670DE3 /* Pods-CEMach_Tests-acknowledgements.markdown */,
+				C3B71117A66F1B09A3C035956ECDC087 /* Pods-CEMach_Tests-acknowledgements.plist */,
+				6078F34063C054FE2ACD8D5525E1C6A2 /* Pods-CEMach_Tests-dummy.m */,
+				471B25667171E370130B6DA0A33BAC46 /* Pods-CEMach_Tests-Info.plist */,
+				56570A1277F430220F2FC4158544D31E /* Pods-CEMach_Tests-umbrella.h */,
+				EFEF444FA8304F97E4E431AB4D5A4BD1 /* Pods-CEMach_Tests.debug.xcconfig */,
+				02A17DFD934915627149633C53F7E7C4 /* Pods-CEMach_Tests.release.xcconfig */,
+			);
+			name = "Pods-CEMach_Tests";
+			path = "Target Support Files/Pods-CEMach_Tests";
+			sourceTree = "<group>";
+		};
+		99E3FF5E581F3DE417737EB9C3F5C630 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				405C6842BFFF225F188D13B0DE9B822B /* CEMach.modulemap */,
+				7D44F1E80ADC389F3C96292018EE1C2E /* CEMach-dummy.m */,
+				A6A47AF2F44B9D984D7131F463CA75B5 /* CEMach-Info.plist */,
+				A9308943D00C0E676B8785ECFFF4B027 /* CEMach-prefix.pch */,
+				D39B81075B5F34F168D03FDB5B726F5F /* CEMach-umbrella.h */,
+				2768CC8048FC3A8A62D437E645E5732F /* CEMach.debug.xcconfig */,
+				075CFEBDAF4767F059CF063D247B3716 /* CEMach.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CEMach";
+			sourceTree = "<group>";
+		};
+		ADB9E16C65BBEF661F12A961F431E723 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C0519934045F789D0B55ED857ED7B /* CEMach.podspec */,
+				A90588059C117A3C9512C4559D0B95EE /* LICENSE */,
+				9263187E9F532CC8425BAC00D21662A9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				61842768BB690867CA8124F47238FD0D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F44728D66472D0FEF9EC56BDC644D373 /* Products */,
+				2CF0EE5DCB8AD2522DB2143F53D8DBD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44728D66472D0FEF9EC56BDC644D373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B2DDE3B7FE2A670C70488AE01108F /* CEMach.framework */,
+				04D5F231C90057DA933755BFFBB0A01C /* Pods-CEMach_Example */,
+				9204B2D7B070099DB2BE60B28EA8D9C8 /* Pods-CEMach_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8BD20DD5E6C690845A7C97441A241DC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FAD2D22D5D3CD1C70B30A7986AFA0A /* Pods-CEMach_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B7756478E87B4F459507380F45AAC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F371140ACEEE1608E0774BBD1CCA7D /* CEMach-umbrella.h in Headers */,
+				BFA6AB41F323B811E2F789784962EBB4 /* CEMachJailbroken.h in Headers */,
+				48FBF709281AD1DE00F458B9 /* CEMach.h in Headers */,
+				F511B5FB7391D2C87361EF197A526DCE /* CEMachManager.h in Headers */,
+				9130982FEDACF13941BC412BB724FC02 /* CEMachSign.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03C16083D1B7D662980B58C8439C555 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB163FC0272573786585B0A1FBB331D /* Pods-CEMach_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29712F431D5EA231DD31A0C6DCBCA545 /* Pods-CEMach_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0B3246388EE79401EEECAE734B57B1 /* Build configuration list for PBXNativeTarget "Pods-CEMach_Tests" */;
+			buildPhases = (
+				8BD20DD5E6C690845A7C97441A241DC3 /* Headers */,
+				44646A48EF9682C4AF7E84F3599CB47E /* Sources */,
+				6E8B6BD2903AEBB414AE761BD88EDE0C /* Frameworks */,
+				79EC260AFC48D182122696BDA5563B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DD5474C2FDDE4E23975992199EDAD98 /* PBXTargetDependency */,
+			);
+			name = "Pods-CEMach_Tests";
+			productName = Pods_CEMach_Tests;
+			productReference = 9204B2D7B070099DB2BE60B28EA8D9C8 /* Pods-CEMach_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6AA022DD784D1A663AD40E1EE332D1EC /* Pods-CEMach_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69A37C5AD249D69C1B9892845C3FAD1 /* Build configuration list for PBXNativeTarget "Pods-CEMach_Example" */;
+			buildPhases = (
+				A03C16083D1B7D662980B58C8439C555 /* Headers */,
+				7D16C85288A35B1120D20332BF1540C1 /* Sources */,
+				155DD82BD177AE41FE5BBA16652AA22A /* Frameworks */,
+				D7DDAD71DF439C569289C6F9A2C3E335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BB24633C3D76246C3167830C603382 /* PBXTargetDependency */,
+			);
+			name = "Pods-CEMach_Example";
+			productName = Pods_CEMach_Example;
+			productReference = 04D5F231C90057DA933755BFFBB0A01C /* Pods-CEMach_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E69346FA1C560E2C7178A8FD358B45C4 /* CEMach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9A1F7E701ED5F4F3094F5D97DF5C14 /* Build configuration list for PBXNativeTarget "CEMach" */;
+			buildPhases = (
+				98B7756478E87B4F459507380F45AAC7 /* Headers */,
+				6D5416200FE4F03A70E3455646FB598B /* Sources */,
+				C97BD88EF01E6C51B8647F12D6A68FE3 /* Frameworks */,
+				880121135BB7BB22067D2910F694B008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEMach;
+			productName = CEMach;
+			productReference = CE6B2DDE3B7FE2A670C70488AE01108F /* CEMach.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F44728D66472D0FEF9EC56BDC644D373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E69346FA1C560E2C7178A8FD358B45C4 /* CEMach */,
+				6AA022DD784D1A663AD40E1EE332D1EC /* Pods-CEMach_Example */,
+				29712F431D5EA231DD31A0C6DCBCA545 /* Pods-CEMach_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EC260AFC48D182122696BDA5563B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880121135BB7BB22067D2910F694B008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DDAD71DF439C569289C6F9A2C3E335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44646A48EF9682C4AF7E84F3599CB47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D83735BC5F8DDBBD397F20F1229C642 /* Pods-CEMach_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5416200FE4F03A70E3455646FB598B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DE5A30C6E3E1F30E7375925B4716F8 /* CEMach-dummy.m in Sources */,
+				A0D62D21114BBD40EEFBE0AD63E618FE /* CEMachJailbroken.mm in Sources */,
+				48FBF70A281AD1DE00F458B9 /* CEMach.mm in Sources */,
+				DC9D04D7D44BCB5C52D723F90D3F1C4A /* CEMachManager.mm in Sources */,
+				057E5327B85325CEC230F1C5931B0F6D /* CEMachSign.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D16C85288A35B1120D20332BF1540C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CCE5A5018B1F46423D6B04D1D1D879 /* Pods-CEMach_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34BB24633C3D76246C3167830C603382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CEMach;
+			target = E69346FA1C560E2C7178A8FD358B45C4 /* CEMach */;
+			targetProxy = 06FC0C4117832D42F45DA3AF02DF2659 /* PBXContainerItemProxy */;
+		};
+		6DD5474C2FDDE4E23975992199EDAD98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CEMach_Example";
+			target = 6AA022DD784D1A663AD40E1EE332D1EC /* Pods-CEMach_Example */;
+			targetProxy = D7D9A037B1B9F47DEC59B8D32FEACE84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27EAC703B99A8754C9749B6D5607C06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A17DFD934915627149633C53F7E7C4 /* Pods-CEMach_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEMach_Tests/Pods-CEMach_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEMach_Tests/Pods-CEMach_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F95B9973D532E912BFE91A83EA75741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2768CC8048FC3A8A62D437E645E5732F /* CEMach.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CEMach/CEMach-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CEMach/CEMach-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CEMach/CEMach.modulemap";
+				PRODUCT_MODULE_NAME = CEMach;
+				PRODUCT_NAME = CEMach;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		660E76A995FAF1D948F2007AA456ED1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEF444FA8304F97E4E431AB4D5A4BD1 /* Pods-CEMach_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEMach_Tests/Pods-CEMach_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEMach_Tests/Pods-CEMach_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FE565948D9B11D393FFD5745F3BC706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075CFEBDAF4767F059CF063D247B3716 /* CEMach.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CEMach/CEMach-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CEMach/CEMach-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CEMach/CEMach.modulemap";
+				PRODUCT_MODULE_NAME = CEMach;
+				PRODUCT_NAME = CEMach;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A59FA6016A64B9657DA790D64CBBE225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C01E42CFDDF54A84F64A5A941F13401 /* Pods-CEMach_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEMach_Example/Pods-CEMach_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEMach_Example/Pods-CEMach_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE1F0EAD5A38950FBFC54687EFF9BCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161AF2BF71AD99B48C38726B70C05207 /* Pods-CEMach_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CEMach_Example/Pods-CEMach_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CEMach_Example/Pods-CEMach_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E0B3246388EE79401EEECAE734B57B1 /* Build configuration list for PBXNativeTarget "Pods-CEMach_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E76A995FAF1D948F2007AA456ED1A /* Debug */,
+				27EAC703B99A8754C9749B6D5607C06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9A1F7E701ED5F4F3094F5D97DF5C14 /* Build configuration list for PBXNativeTarget "CEMach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F95B9973D532E912BFE91A83EA75741 /* Debug */,
+				9FE565948D9B11D393FFD5745F3BC706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69A37C5AD249D69C1B9892845C3FAD1 /* Build configuration list for PBXNativeTarget "Pods-CEMach_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1F0EAD5A38950FBFC54687EFF9BCC7 /* Debug */,
+				A59FA6016A64B9657DA790D64CBBE225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

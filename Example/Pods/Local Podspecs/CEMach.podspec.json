@@ -1,0 +1,22 @@
+{
+  "name": "CEMach",
+  "version": "0.1.0",
+  "summary": "Mach 安全校验",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhiyong/CEMach",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhiyong": "617646201@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhiyong/CEMach.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "CEMach/Classes/**/*"
+}
